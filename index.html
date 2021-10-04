@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+  <script src="app.js"></script>
+
+  <title>Tevenn Lewis-Portfolio</title>
+</head>
+
+<body>
+  <nav>
+    <button class="button is-primary is-outlined">
+      <a id="nav-link" href="#about-me">
+        <h1>About Me</h1>
+      </a>
+    </button>
+    <button class="button is-primary is-outlined">
+      <a id="nav-link" href="#projects">
+        <h1>Projects</h1>
+      </a>
+    </button>
+    <button class="button is-primary is-outlined">
+
+      <a id="nav-link" href="#contact-me">
+        <h1>Contact Me</h1>
+      </a>
+    </button>
+  </nav>
+  <header>
+    <img src="https://cdn.shopify.com/s/files/1/0306/6419/6141/articles/coding_languages_1024x.png?v=1619126283" alt="">
+  </header>
+  <div class="container">
+    <div id="about-card" class="card">
+      <div id="card-top" class="card-header">
+        <h1 id="about-me" class="mt-3 mb-3 ml-3 is-size-3	">Hi I'm Tevenn Lewis</h1>
+      </div>
+      <div id="about-block">
+        <figure class="image">
+          <img id="profile-pic" class="is-rounded"
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQFYnnt93LpooQ/profile-displayphoto-shrink_800_800/0/1628005024654?e=1638403200&v=beta&t=y08CZGdFn8tGl2MFn1kI46sRa9j6lhkHGmUbN0HzOcQ">
+        </figure>
+        <p id="about-text" class="about p-3 is-size-4">I am a full stack engineer, specializing in javascript, ejs,
+          express, mongoDB, and
+          collaborating
+          with others in order to get the job done. With 4 years of experience in personal training and 1 year of
+          experience in training management, I am accustomed to navigating tough situations on a regular basis
+          researching
+          and applying effective solutions. Currently, I am looking to apply my problem solving skills and incomparable
+          work ethic to building web applications.</p>
+          
+      </div>
+    </div>
+    <div id="resume-card" class="card p-3">
+      <a href="./photos/TevennLewisPDF-Resume.pdf" target="_blank" download>
+        <h1 class="resume">Download My Resume Here</h1>
+      </a>
+    </div>
+    
+  </div>
+  <div class="container">
+    <div id="project-card" class="card">
+      <div id="card-top" class="card-header">
+        <h1 id="projects" class="mt-3 mb-3 ml-3">Projects</h1>
+      </div>
+      <div id="project-block">
+        <div class="column is-mobile" id="project-column">
+          <h1>Train Like a Saiyan</h1>
+          <a href="https://train-like-a-saiyan.herokuapp.com/login" target="_blank">
+            <img class="project-img" src="./photos/Screen Shot 2021-09-28 at 1.47.29 PM.png" alt="">
+          </a>
+          <p>Full-Stack application that allows users to create a profile, login/ logout, create workouts based on
+            preloaded exercises, update workouts and delete workouts.</p>
+        </div>
+
+        <div class="column is-mobile" id="project-column">
+          <h1>The Wayfarer</h1>
+          <a href="https://the-number-one-wayfarer.herokuapp.com/" target="_blank">
+            <img class="project-img" src="./photos//Screen Shot 2021-09-28 at 2.00.44 PM.png" alt="">
+          </a>
+          <p>Full-Stack application that allows users to create a profile, login/logout, make comments on the nightlife
+            in locations provided in the application as well as update and delete created comments.</p>
+        </div>
+
+        <div class="column is-mobile" id="project-column">
+          <h1>Weebs R Us</h1>
+          <a href="https://weebsrus.herokuapp.com/video" target="_blank">
+            <img class="project-img" src="./photos/Screen Shot 2021-09-28 at 2.02.06 PM.png" alt="">
+          </a>
+          <p>Full-Stack application that allows users to watch current anime shows, recommend shows for other users,
+            comment on videos as well as editing and deleting created comments.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="skills-card" class="card">
+      <div id="card-top" class="card-header">
+        <h1 class="mt-3 mb-3 ml-3">Skills</h1>
+      </div>
+      <ul class="p-5">
+        <div class="skills-list">
+
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Express</li>
+          <li>Mongo DB</li>
+          <li>Mongoose</li>
+          <li>Python</li>
+          <li>Django</li>
+          <li>PostgreSQL</li>
+          <li>React</li>
+        </div>
+
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div id="contact-card" class="card">
+      <div id="card-top" class="card-header">
+        <h1 class="mt-3 mb-3 ml-3" id="contact-me">Contact Me</h1>
+      </div>
+      <div class="contact-list">
+        <h1 class="mt-5 mb-3 ml-3 pb-3">tevennlewis@gmail.com</h1>
+     
+        <a href="https://www.linkedin.com/in/tevenn-lewis/" target="_blank"><i id="linkedin" class="fab fa-linkedin fa-2x mt-5 mb-3 ml-3 pb-3"></i></a>
+        <a href="https://github.com/TevennLewis" target="_blank"><i id="git" class="fab fa-github-square fa-2x mt-5 mb-3 ml-3 pb-3"></i></a>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
